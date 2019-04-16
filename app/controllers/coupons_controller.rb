@@ -9,6 +9,6 @@ class CouponsController < ApplicationController
   def new 
   end 
   
-  def 
+  def create
   end 
 end 
