@@ -1,3 +1,6 @@
 <% @coupons.each do |coupon| %>
-<div> <%= link_to coupon.coupon_code, coupon.store, coupon_path(coupon) %></div> 
+<div> <%= link_to coupon.coupon_code, coupon.store, 
+? Do I need to enter coupon code + store? Or do I link them together? 
+
+coupon_path(coupon) %></div> 
 <% end %>
