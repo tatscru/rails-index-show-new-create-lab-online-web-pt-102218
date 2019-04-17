@@ -15,5 +15,6 @@ class CouponsController < ApplicationController
     @coupon = Coupon.create(coupon_code: params[:coupon_code], store: params[:store])
     
     redirect_to coupon_path(@coupon)
+    # here we are redirecting to the new resources show page
   end 
 end 
